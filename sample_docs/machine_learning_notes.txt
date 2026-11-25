@@ -1,0 +1,11 @@
+Machine Learning Basics - Revision Notes
+
+Supervised learning trains a model on labelled data, where every example comes with the correct answer. Classification predicts a category such as spam or not spam, while regression predicts a number such as a house price. Unsupervised learning finds structure in unlabelled data, for example grouping customers with clustering.
+
+Overfitting happens when a model memorises the training data, including its noise, and then performs badly on new data. Underfitting happens when a model is too simple to learn the pattern at all. Overfitting can be reduced with more data, simpler models, regularisation and cross-validation.
+
+Data is normally split into a training set and a test set. The model learns from the training set and is evaluated on the test set, which it has never seen. A validation set is often used in between to tune hyperparameters without touching the test set.
+
+Accuracy alone can be misleading when classes are imbalanced. Precision tells how many predicted positives were truly positive. Recall tells how many real positives were found. The F1 score is the harmonic mean of precision and recall and is useful when both matter.
+
+Gradient descent is an optimisation method that repeatedly adjusts model weights in the direction that reduces the loss. The learning rate controls the step size: too large and training can overshoot, too small and training becomes very slow.
